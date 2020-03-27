@@ -33,6 +33,10 @@ body {
     line-height: 28px;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .search {
     display: flex;
     align-items: center;
@@ -78,6 +82,10 @@ body {
     padding: 10px 18px;
 }
 
+.search-button img:hover {
+    cursor: pointer;
+}
+
 .bookmark {
     background-color: transparent;
     border: none;
@@ -95,6 +103,10 @@ body {
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.avatar:hover {
+    cursor: pointer;
 }
 
 .title {
@@ -148,6 +160,11 @@ body {
     line-height: 19px;
     color: #ffffff;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.info a:hover {
+    text-shadow: 0 0 5px #fff;
 }
 
 .play::before {
@@ -206,6 +223,15 @@ body {
     font-size: 14px;
     line-height: 16px;
     border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button:hover,
+.subscribe-button:hover {
+    background: #ff8800;
+    box-shadow: 0 0 15px #ff8800;
+    cursor: pointer;
 }
 
 .actors-title {
@@ -297,6 +323,7 @@ body {
     border-radius: 0px 5px 5px 0px;
     border: none;
     padding: 12px;
+    transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
